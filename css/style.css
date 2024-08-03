@@ -144,7 +144,7 @@
   width: 100%;
 }
 
-.hrdiv{
+.hrdiv {
   background-color: #131316;
 }
 
@@ -336,6 +336,172 @@
 .fa-arrow-right {
   transform: rotate(90deg);
 }
+
+.faqhr {
+  border: 1px solid #e9e9ec;
+  width: 90%;
+  margin: auto;
+}
+
+/* FAQ section is here */
+
+.faq {
+  padding: 3rem 1rem;
+}
+
+
+
+.faq > h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.faq > h3:first-child{
+  display: block;
+}
+
+.faq > h3:nth-child(2) {
+  display: none;
+}
+
+.faqNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f6;
+  padding: 7px;
+  border-radius: 8px;
+  margin: 1.5rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.faqNav > div {
+  padding: 7px 15px;
+  border-radius: 8px;
+}
+
+.faqNav > div:first-child {
+  background-color: #4891ff;
+}
+
+.all > div {
+  color: #131316;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  border-bottom: 1px solid #dfdee2;
+  padding: 1rem 0rem;
+}
+
+
+/* footer section starts here */
+
+.footer {
+  padding: 3rem 1rem;
+  background: #131316;
+}
+
+.footer > img{
+  margin-bottom: 1.5rem;
+}
+
+.newsletter {
+  background: #f4f4f6;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.newsletter > h4 {
+  color: #35333c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+.newsletter > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0.5rem 0;
+  width: 250px;
+}
+
+.inputButton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.inputButton > input {
+  color: #bebdc6;
+  border: 1px solid #bebdc6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.inputButton > button {
+  color: white;
+  background-color: #4891ff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footerlinks{
+  margin: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.footerlinks > div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem 0;
+  width: 140px;
+  color: #BCC2C3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.footerlinks > div > i:first-child{
+  color: #DFDEE2; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;   
+  font-size: 18px                                                                                                                                                                                                                                  ;
+}
+
+.symbols{
+  color: #BCC2C3;
+  display: flex;
+  gap: 1rem;
+  font-size: 25px;
+}
+
+.copyrights{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #BCC2C3;
+  margin: 1rem 0;
+}
+
 
 @media only screen and (min-width: 720px) {
   .header {
@@ -533,5 +699,72 @@
 
   .features {
     font-size: 16px;
+  }
+
+
+  
+  /* FAQ section is here */
+  
+  .faq {
+    padding: 3rem 1rem;
+  }
+
+  .faq > h3:first-child{
+    display: none;
+  }
+  
+  .faq > h3:nth-child(2)  {
+    display: block;
+  }
+  
+  .faqNav {
+    margin: 1.5rem auto;
+    width: 400px;
+  }
+  
+  .faqNav > div {
+    padding: 7px 15px;
+    border-radius: 8px;
+  }
+  
+  .faqNav > div:first-child {
+    background-color: #4891ff;
+  }
+
+  .all{
+    width: 660px;
+    margin: auto;
+  }
+
+
+  /* footer section */
+
+
+  .footer{
+    padding: 3rem 5rem;
+  } 
+  
+  .newsfooter{
+    display: flex;
+    gap: 20%;
+  }
+
+  
+  .symbols{
+    color: #BCC2C3;
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .copyrights{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #BCC2C3;
+    margin: 1rem 0;
   }
 }
